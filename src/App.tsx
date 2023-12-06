@@ -1,26 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import { useMediaQuery } from 'react-responsive';
 
-function App() {
+// import components
+import MobileNavbar from "./components/mobile-navbar";
+import DesktopNavbar from "./components/desktop-navbar";
+import Hero from './components/hero';
+import About from "./components/about";
+import Skills from "./components/skills";
+import Projects from './components/projects';
+import Contact from './components/contact';
+
+// import images
+import paltax from './assets/paltax.png';
+
+const App = () => {
+  const isMobile = useMediaQuery({ maxWidth: 767 });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {isMobile ? <MobileNavbar /> : <DesktopNavbar />}
+      <section id="hero">
+        <Hero />
+      </section>
+      <img src={paltax} alt="Logo Ade Studio" />
+      <section id="about-me">
+        <About />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
-}
+};
 
 export default App;
