@@ -3,8 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.scss';
 import './styles/tailwind.css';
 import App from './App';
+import { ThemeProvider } from './context/theme-context';
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
-root.render(<App />);
+root.render(
+  <React.StrictMode>
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+  </React.StrictMode>,
+);
