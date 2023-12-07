@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 import '../styles/components/_navbar.scss';
 import ThemeToggle from './theme-toggle';
@@ -12,8 +12,25 @@ const DesktopNavbar: FunctionComponent = () => {
 
   const { theme } = useTheme();
 
+  // change sticky desktop navbar opacity on scroll, working on light and dark modes
+  const [isHeaderActive, setHeaderActive] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setHeaderActive(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const headerClasses = `header ${isHeaderActive ? 'bg-opacity-60 dark:bg-opacity-60' : ''}`;
+
   return (
-    <div className="sticky top-0 w-full bg-floral dark:bg-jet bg-opacity-60 dark:bg-opacity-90">
+    <div className={`sticky top-0 w-full bg-floral dark:bg-jet ${headerClasses}`}>
       <div className="flex flex-row justify-around place-items-center">
         <div>
             <a href="#hero" className="scroll-smooth">
