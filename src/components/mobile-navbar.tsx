@@ -5,8 +5,8 @@ import ThemeToggle from './theme-toggle';
 import { useTheme } from '../context/theme-context';
 
 // import images
-import LogoLightMode from '../assets/logo-light-mode.png';
-import LogoDarkMode from '../assets/logo-dark-mode.png';
+import LogoBeigeBg from '../assets/logo-beige-bg.png';
+import LogoGreyBg from '../assets/logo-grey-bg.png';
 
 const MobileNavbar: FunctionComponent = () => {
 
@@ -16,12 +16,12 @@ const MobileNavbar: FunctionComponent = () => {
     <div>
       <div className="top-0 w-full bg-floral dark:bg-jet">
         <div className="flex flex-row justify-between place-items-center">
-          <div className="p-2">
+          <div>
               <a href="#hero" className="scroll-smooth">
                 {theme === 'dark' ? (
-                <img className="h-[5rem] pl-1 w-auto" src={LogoLightMode} alt="Ade Studio's logo" />
+                <img className="h-[5rem] pl-1 w-auto" src={LogoGreyBg} alt="Ade Studio's logo" />
                 ) : (
-                  <img className="h-[5rem] pl-1 w-auto" src={LogoDarkMode} alt="Ade Studio's logo" />
+                  <img className="h-[5rem] pl-1 w-auto" src={LogoBeigeBg} alt="Ade Studio's logo" />
                 )}
               </a>
           </div>
