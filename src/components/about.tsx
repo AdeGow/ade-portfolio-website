@@ -1,15 +1,40 @@
 import React, { FunctionComponent } from 'react';
-import paltax from '../assets/paltax.png';
+import { useTheme } from '../context/theme-context';
+import beigeBgAdePicture from '../assets/beige-bg-ade-picture.gif';
+import greyBgAdePicture from '../assets/grey-bg-ade-picture.gif';
+
 
 const About: FunctionComponent = () => {
 
-  return (
-    <section id="about-me">
-      <h2>This is the About me section</h2>
-      <img src={paltax} alt="Logo Ade Studio" />
-      <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit tincidunt vehicula dapibus facilisi vestibulum, habitant in blandit etiam himenaeos. Phasellus per morbi mauris non pulvinar vestibulum varius class molestie, arcu torquent odio pharetra sollicitudin aliquam est aenean augue, in rhoncus integer aptent habitasse inceptos senectus himenaeos. Netus cursus feugiat nunc mus ut pretium laoreet, mattis leo sem curae vel vehicula, justo montes mollis hac viverra mi.
+  const { theme } = useTheme();
 
-      Ligula habitasse facilisis venenatis nascetur pharetra consequat eleifend quis lacinia, mattis tristique vestibulum urna curae conubia tortor class nulla vehicula, non leo augue montes cubilia justo est ornare. Hendrerit cum sagittis quisque magnis mi risus vehicula porttitor cursus, egestas libero iaculis auctor vivamus potenti leo aliquam, enim platea est commodo interdum tellus condimentum class. Etiam maecenas turpis fusce arcu ultrices massa pharetra felis at porta, platea ac fringilla commodo dictum posuere netus eu mattis luctus suspendisse, donec fames fermentum litora tristique tempor facilisi convallis rhoncus.</p>
+  return (
+    <section id="about-me" className="md:pl-7">
+      <div className="container mx-auto text-center md:text-left">
+        <h2 className="font-title font-bold text-coral bg-gradient-to-b from-[#FF7D41] via-[#FF8B5C] to-[#FF9D85] inline-block text-transparent bg-clip-text text-4xl mb-6 md:text-5xl md:mb-10">ABOUT ME</h2>
+      </div>
+      <div className="container mx-auto text-center md:text-left">
+        <div className="flex flex-col lg:flex-row-reverse md:items-center">
+          <div>
+            {theme === 'dark' ? (
+              <img className="h-auto w-full mb-6 md:mb-0" src={greyBgAdePicture} alt="Adeline" />
+              ) : (
+              <img className="h-auto w-full mb-6 md:md-0" src={beigeBgAdePicture} alt="Ade" />
+            )}
+          </div>
+          <div className="font-text font-light text-jet text-lg text-left px-7 mb-16 dark:text-floral md:text-2xl md:pl-0 md:mb-0">
+            <p>Hey there, I’m Ade, a full-stack software developer and UX/UI designer.</p>
+            <br />
+            <p>Specialised in Ruby on Rails, I would be thrilled to engage in your web applications, e-commerce and website projects.</p>
+            <br />
+            <p>I have worked on Rails app (check out my portfolio below) and worked as a webdesigner at Amenitiz, designing websites for people in the hotellerie sector.</p>
+            <br />
+            <p>In addition to my keen interest for web development, I have a background in business and digital marketing.</p>
+            <br />
+            <p>The goal is to bring your web projects to life while respecting your vision, help you achieve your business goals and optimize the user experience.</p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

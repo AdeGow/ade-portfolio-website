@@ -14,7 +14,7 @@ const App = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
   return (
-    <div>
+    <div className="bg-white dark:bg-dark-grey">
       {isMobile ? <MobileNavbar /> : <DesktopNavbar />}
       <Hero />
       <About />
