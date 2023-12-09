@@ -10,9 +10,9 @@ const AlibyeProjectCard: FunctionComponent = () => {
     <div className="flex flex-row flex-wrap mx-auto">
       {/* Card component */}
       <div className="transition-all duration-150 flex w-full px-12 py-4 md:w-11/12">
-        <div className="flex flex-col items-stretch pt-6 mb-6 transition-all duration-150 bg-white rounded-3xl shadow-lg hover:shadow-2xl lg:mx-4">
+        <div className="flex flex-col items-stretch pt-6 mb-6 transition-all duration-150 bg-white rounded-3xl shadow-lg hover:shadow-2xl lg:mx-4 dark:bg-jet text-jet dark:text-floral">
           {/* Card Title */}
-          <div className="w-full px-4 py-3 text-center font-title font-medium text-3xl text-jet md:text-3xl lg:5xl">
+          <div className="w-full px-4 py-3 text-center font-title font-medium text-3xl md:text-3xl lg:5xl">
             <h3>ALIBYE</h3>
           </div>
           {/* Card image */}
@@ -20,11 +20,11 @@ const AlibyeProjectCard: FunctionComponent = () => {
             <img className="object-cover w-full md:h-56" src={AlibyePicture} alt="Active Buddy's logo" />
           </div>
           {/* Card description */}
-          <div className="flex flex-row flex-wrap w-full h-26 px-4 py-4 text-base font-normal text-left text-jet lg:text-lg lg:h-28 lg:px-6">
+          <div className="flex flex-row flex-wrap w-full h-26 px-4 py-4 text-base font-normal text-left lg:text-lg lg:h-28 lg:px-6">
             <p>A web app for finding excuses to avoid uncomfortable social, professional or family events.</p>
           </div>
           {/* Card tools */}
-          <div className="flex flex-row flex-wrap w-full h-14 px-4 py-2 text-base font-light text-left text-jet lg:px-6">
+          <div className="flex flex-row flex-wrap w-full h-14 px-4 py-2 text-base font-light text-left lg:px-6">
             <p>Ruby on Rails | JavaScript | HTML | SCSS | Cloudinary API</p>
           </div>
           {/* Card links */}
