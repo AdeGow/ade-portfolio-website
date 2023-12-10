@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from 'react';
-import paltax from '../assets/paltax.png';
 
 const Contact: FunctionComponent = () => {
 
@@ -22,6 +21,9 @@ const Contact: FunctionComponent = () => {
         <svg viewBox="0 0 500 125">
           <path d="M 0 50 C 150 150 300 0 500 80 L 500 0 L 0 0" fill="#FFFAF2" className="dark:fill-jet"></path>
         </svg>
+      </div>
+      <div className="bg-plant h-96">
+
       </div>
     </section>
   );

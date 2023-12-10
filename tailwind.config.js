@@ -19,6 +19,10 @@ module.exports = {
         title: ['Poppins', 'sans-serif'],
         text: ['Roboto', 'sans-serif'],
       },
+      backgroundImage: {
+        'plant': "url('../assets/plant.jpeg')",
+        'wave-orange-bottom-three-layers': "url('../assets/wave-orange-bottom-three-layers.svg')",
+      }
     },
   },
   plugins: [],

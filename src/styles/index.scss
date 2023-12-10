@@ -2,9 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import './components/_navbar';
-@import './components/_wave-grey-top';
-@import './components/_wave-grey-bottom';
-@import './components/_wave-orange-bottom';
+@import './components/_wave-grey-bottom-three-layers';
+@import './components/_wave-orange-bottom-three-layers';
+@import './components/_wave-grey-top-three-layers';
+@import './components/_wave-orange-top-three-layers';
 
 body {
   margin: 0;

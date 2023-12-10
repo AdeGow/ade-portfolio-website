@@ -28,10 +28,10 @@ const PaltaxProjectCard: FunctionComponent = () => {
             <p>Ruby on Rails and much more to come !</p>
           </div>
           {/* Card links */}
-          <div className="px-4 py-4 h-18 bg-jet rounded-b-[24px]">
+          <div className="px-4 py-4 h-18 bg-jet dark:bg-jet rounded-b-[24px]">
             {/* Work in progress message */}
-            <div className="flex flex-row h-16 justify-around items-center mx-auto px-12 py-2 bg-jet">
-              <p className="font-title text-floral">WORK IN PROGRESS</p>
+            <div className="flex flex-row h-16 justify-around items-center mx-auto px-12 py-2 bg-jet dark:bg-jet">
+              <p className="font-title text-floral">🚧 WORK IN PROGRESS 🚀</p>
             </div>
         </div>
       </div>
