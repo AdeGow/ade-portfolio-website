@@ -1,6 +1,5 @@
 import React, { FunctionComponent } from 'react';
 import ContactForm from './contact-form';
-import FormSent from './form-sent';
 
 const Contact: FunctionComponent = () => {
 

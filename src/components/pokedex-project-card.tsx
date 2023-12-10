@@ -9,7 +9,7 @@ const PokedexProjectCard: FunctionComponent = () => {
   return (
     <div className="flex flex-row flex-wrap mx-auto">
       {/* Card component */}
-      <div className="transition-all duration-150 flex w-full px-12 py-4 md:w-11/12">
+      <div className="transition-all duration-150 flex w-full px-5 md:px-12 py-4 md:w-11/12">
         <div className="flex flex-col items-stretch pt-6 mb-6 transition-all duration-150 bg-white rounded-3xl shadow-lg hover:shadow-2xl lg:mx-4 dark:bg-jet text-jet dark:text-floral">
           {/* Card Title */}
           <div className="w-full px-4 py-3 text-center font-title font-medium text-3xl md:text-3xl lg:5xl">
