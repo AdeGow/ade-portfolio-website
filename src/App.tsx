@@ -9,7 +9,6 @@ import About from "./components/about";
 import Skills from "./components/skills";
 import Projects from './components/projects';
 import Contact from './components/contact';
-import WaveOrangeBottomThreeLayers from './components/wave-bottom-three-layers';
 
 const App = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });

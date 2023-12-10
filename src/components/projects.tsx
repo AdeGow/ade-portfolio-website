@@ -28,8 +28,8 @@ const Projects: FunctionComponent = () => {
           <WaveBottomThreeLayers />
         </div>
       ) : (
-        <div className="bg-opacity-25 bg-gradient-to-b from-transparent via-[#FF8B5C] via-[#FF8B5C] to-transparent dark:bg-gradient-to-b dark:from-[#1F1F1F] dark:via-[#141414] dark:to-[#1F1F1F] ">
-          <div className="md:grid xl:mx-32 md:grid-cols-2 md:gap-4 md:justify-between dark:bg-jet">
+        <div className="bg-opacity-25 bg-gradient-to-b from-transparent via-[#FF8B5C] via-[#FF8B5C] to-transparent dark:bg-gradient-to-b dark:from-[#1F1F1F] dark:via-[#5C5C5C] dark:to-[#1F1F1F] ">
+          <div className="md:grid xl:mx-32 md:grid-cols-2 md:gap-4 md:justify-between">
             <ActiveBuddyProjectCard />
             <AlibyeProjectCard />
             <PokedexProjectCard />

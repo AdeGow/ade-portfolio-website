@@ -31,7 +31,7 @@ const MobileNavbar: FunctionComponent = () => {
         </div>
       </div>
 
-      <div className="fixed bottom-4 w-full px-5">
+      <div id="fixed-mobile-navbar" className="fixed bottom-4 w-full px-5">
         <div className="mx-auto py-2 px-6 bg-floral dark:bg-jet rounded-full shadow-lg">
           <nav>
             <ul className="flex flex-row justify-around">
