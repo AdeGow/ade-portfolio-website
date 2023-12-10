@@ -5,8 +5,8 @@ import ThemeToggle from './theme-toggle';
 import { useTheme } from '../context/theme-context';
 
 // import images
-import LogoBeigeBg from '../assets/logo-beige-bg.png';
-import LogoGreyBg from '../assets/logo-grey-bg.png';
+import LogoBeigeBg from '../assets/logo-ade-studio-grey.svg';
+import LogoGreyBg from '../assets/logo-ade-studio-floral.svg';
 
 const DesktopNavbar: FunctionComponent = () => {
 
@@ -35,9 +35,9 @@ const DesktopNavbar: FunctionComponent = () => {
         <div>
             <a href="#hero" className="scroll-smooth">
               {theme === 'dark' ? (
-              <img className="h-[6.5rem] w-auto" src={LogoGreyBg} alt="Ade Studio's logo" />
+              <img className="h-[5rem] w-auto" src={LogoGreyBg} alt="Ade Studio's logo" />
               ) : (
-                <img className="h-[6.5rem] w-auto" src={LogoBeigeBg} alt="Ade Studio's logo" />
+                <img className="h-[5rem] w-auto" src={LogoBeigeBg} alt="Ade Studio's logo" />
               )}
             </a>
         </div>
