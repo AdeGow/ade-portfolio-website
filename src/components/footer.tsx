@@ -2,6 +2,12 @@ import React, { FunctionComponent } from 'react';
 
 const Footer: FunctionComponent = () => {
 
+  const pdfUrl = 'https://drive.google.com/file/d/1BrHRDuTNHZLRsv4ygVeLTiVVSo6xsXg5/view?usp=drive_link';
+
+  const handleDownloadResume = () => {
+    window.open(pdfUrl, '_blank');
+  };
+
   return (
     <div className="pt-10 pb-28 md:pb-6 px-5 md:px-24 flex flex-col bg-floral dark:bg-dark-grey md:flex md:flex-row-reverse md:justify-between">
       <div className="flex flex-row justify-center items-center mb-10 md:w-1/3">
@@ -45,12 +51,12 @@ const Footer: FunctionComponent = () => {
 
         <div className="flex flex-row justify-center items-center">
           {/* Download icon */}
-          <a className="px-3 h-14 w-full flex flex-row items-center" href="/">
+          <button className="px-3 h-14 w-full flex flex-row items-center" onClick={handleDownloadResume} >
             <svg className="flex-none w-7 h-7 stroke-jet dark:stroke-floral" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
             </svg>
-            <p className="pl-2 flex-auto w-64 text-left font-text font-light text-jet text-lg dark:text-floral">download my CV in PDF</p>
-          </a>
+            <p className="pl-2 flex-auto w-64 text-left font-text font-light text-jet text-lg dark:text-floral">download my resume in PDF</p>
+          </button>
         </div>
       </div>
     </div>
