@@ -9,20 +9,20 @@ const About: FunctionComponent = () => {
   const { theme } = useTheme();
 
   return (
-    <section id="about-me" className="md:pl-7">
-      <div className="container mx-auto text-center md:text-left">
-        <h2 className="font-title font-bold text-coral bg-gradient-to-b from-[#FF7D41] via-[#FF8B5C] to-[#FF9D85] inline-block text-transparent bg-clip-text text-4xl mb-6 md:text-5xl md:mb-10">ABOUT ME</h2>
+    <section id="about-me" className="md:mb-14">
+      <div className="container mx-auto text-center md:text-left md:px-14">
+        <h2 className="font-title font-bold text-coral bg-gradient-to-b from-[#FF7D41] via-[#FF8B5C] to-[#FF9D85] inline-block text-transparent bg-clip-text text-4xl mb-6 md:text-5xl md:mb-4">ABOUT ME</h2>
       </div>
-      <div className="container mx-auto text-center md:text-left">
+      <div className="container mx-auto text-center md:text-left md:px-14">
         <div className="flex flex-col lg:flex-row-reverse md:items-center">
           <div>
             {theme === 'dark' ? (
               <img className="h-auto w-full mb-6 md:mb-0" src={greyBgAdePicture} alt="Adeline" />
               ) : (
-              <img className="h-auto w-full mb-6 md:md-0" src={beigeBgAdePicture} alt="Ade" />
+              <img className="h-auto w-full mb-6 md:mb-0" src={beigeBgAdePicture} alt="Ade" />
             )}
           </div>
-          <div className="font-text font-light text-jet text-lg text-left px-7 mb-16 dark:text-floral md:text-2xl md:pl-0 md:mb-0">
+          <div className="font-text font-light text-jet text-lg text-left px-9 mb-16 dark:text-floral md:text-xl md:pl-0 md:mb-0">
             <p>Hey there, I’m Ade, a full-stack software developer and UX/UI designer.</p>
             <br />
             <p>Specialised in Ruby on Rails, I would be thrilled to engage in your web applications, e-commerce and website projects.</p>

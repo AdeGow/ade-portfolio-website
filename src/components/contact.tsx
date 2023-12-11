@@ -5,17 +5,17 @@ const Contact: FunctionComponent = () => {
 
   return (
     <section id="contact" className="bg-floral dark:bg-jet">
-      <div className="w-full bg-floral dark:bg-jet">
-        <svg viewBox="0 0 500 125">
-          <path d="M 0 50 C 150 150 300 0 500 80 L 500 0 L 0 0" fill="white" className="dark:fill-dark-grey"></path>
+      <div className="w-full bg-white dark:bg-dark-grey">
+        <svg width="100%" height="auto" viewBox="0 0 1514 68" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#FFFAF2" className="dark:fill-jet" d="M0 68.0011L-5.94471e-06 0.00153612C-5.94471e-06 0.00153612 237 68.0011 413 68.0011C589 68.0011 938.445 0.00155326 1154.5 0.00153438C1370.56 0.00151549 1513.5 68.001 1513.5 68.001L413 68.0011L0 68.0011Z" />
         </svg>
       </div>
-      <div className="container mx-auto text-center md:text-left">
+      <div className="container md:px-14 pt-10 md:pt-20 mx-auto text-center md:text-left">
         <h2 className="font-title font-bold text-coral bg-gradient-to-b from-[#FF7D41] via-[#FF8B5C] to-[#FF9D85] inline-block text-transparent bg-clip-text text-4xl mb-8 md:text-5xl md:mb-8">A PROJECT IN MIND?</h2>
       </div>
-      <div className="container mx-auto text-center md:text-left">
-        <p className="font-text font-light text-jet text-lg text-left px-7 mb-8 dark:text-floral md:text-2xl md:pl-0 md:mb-12">
-          Let’s talk about your ideas and how we could work together. Feel free to ask me any question or request a quotation.
+      <div className="container md:px-14 mx-auto text-center md:text-left">
+        <p className="font-text font-light text-jet text-lg text-left px-7 md:text-xl md:px-0 mb-8 dark:text-floral md:text-2xl md:mb-12">
+          Let’s talk about your ideas and how we could work together. <br /> Feel free to ask me any question or request a quotation.
         </p>
       </div>
       <div className="min-h-screen bg-plant bg-auto">

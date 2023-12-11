@@ -1,10 +1,7 @@
 import React, { FunctionComponent } from 'react';
-import { useTheme } from '../context/theme-context';
 import ActiveBuddyPicture from '../assets/kitesurf-2.jpg';
 
 const ActiveBuddyProjectCard: FunctionComponent = () => {
-
-  const { theme } = useTheme();
 
   return (
     <div className="flex flex-row flex-wrap mx-auto">

@@ -1,23 +1,20 @@
 import React, { FunctionComponent } from 'react';
-import { useTheme } from '../context/theme-context';
 
 const Skills: FunctionComponent = () => {
 
-  const { theme } = useTheme();
-
   return (
-    <section id="skills" className="bg-floral dark:bg-jet">
-      <div className="w-full bg-floral dark:bg-jet">
-        <svg viewBox="0 0 500 125">
-          <path d="M 0 50 C 150 150 300 0 500 80 L 500 0 L 0 0" fill="white" className="dark:fill-dark-grey"></path>
+    <section id="skills" className="bg-floral dark:bg-jet md:mb-14">
+      <div className="w-full bg-white dark:bg-dark-grey">
+        <svg width="100%" height="auto" viewBox="0 0 1514 68" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#FFFAF2" className="dark:fill-jet" d="M0 68.0011L-5.94471e-06 0.00153612C-5.94471e-06 0.00153612 237 68.0011 413 68.0011C589 68.0011 938.445 0.00155326 1154.5 0.00153438C1370.56 0.00151549 1513.5 68.001 1513.5 68.001L413 68.0011L0 68.0011Z" />
         </svg>
       </div>
-      <div className="container mx-auto text-center md:text-left md:pl-7">
+      <div className="container md:px-14 pt-10 md:pt-20 mx-auto text-center md:text-left">
         <h2 className="font-title font-bold text-coral bg-gradient-to-b from-[#FF7D41] via-[#FF8B5C] to-[#FF9D85] inline-block text-transparent bg-clip-text text-4xl mb-6 md:text-5xl md:mb-10">SKILLS</h2>
-        <p className="font-light text-jet text-lg px-7 mb-8 dark:text-floral md:text-left md:text-2xl md:pl-7">Tools and programming languages I work with:</p>
+        <p className="font-light text-jet text-lg px-9 mb-8 dark:text-floral md:text-left md:text-xl md:px-0">Tools and programming languages I work with:</p>
       </div>
       <div className="flex items-center justify-center">
-        <div className="container mx-auto p-4">
+        <div className="container md:px-14 mx-auto p-4">
             {/* start grid */}
             <div className="mx-4 grid grid-cols-2 items-center md:grid-cols-4 lg:grid-cols-6 gap-6 font-title font-normal text-base dark:text-floral">
               {/* grid desktop row 1 */}
@@ -202,7 +199,7 @@ const Skills: FunctionComponent = () => {
                 </div>
               </div>
               {/* grid item 12 */}
-              <div className="flex flex-col items-center h-32 mb-8">
+              <div className="flex flex-col items-center h-32 mb-4">
                 <div className="h-4/6">
                   <svg className="mb-8 w-full object-cover" width="auto" height="100%" viewBox="0 0 256 264" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
                     <path className="fill-jet dark:fill-floral" d="M255.008 158.086c-1.535-4.649-5.556-7.887-10.756-8.664-2.452-.366-5.26-.21-8.583.475-5.792 1.195-10.089 1.65-13.225 1.738 11.837-19.985 21.462-42.775 27.003-64.228 8.96-34.689 4.172-50.492-1.423-57.64C233.217 10.847 211.614.683 185.552.372c-13.903-.17-26.108 2.575-32.475 4.549-5.928-1.046-12.302-1.63-18.99-1.738-12.537-.2-23.614 2.533-33.079 8.15-5.24-1.772-13.65-4.27-23.362-5.864-22.842-3.75-41.252-.828-54.718 8.685C6.622 25.672-.937 45.684.461 73.634c.444 8.874 5.408 35.874 13.224 61.48 4.492 14.718 9.282 26.94 14.237 36.33 7.027 13.315 14.546 21.156 22.987 23.972 4.731 1.576 13.327 2.68 22.368-4.85 1.146 1.388 2.675 2.767 4.704 4.048 2.577 1.625 5.728 2.953 8.875 3.74 11.341 2.835 21.964 2.126 31.027-1.848.056 1.612.099 3.152.135 4.482.06 2.157.12 4.272.199 6.25.537 13.374 1.447 23.773 4.143 31.049.148.4.347 1.01.557 1.657 1.345 4.118 3.594 11.012 9.316 16.411 5.925 5.593 13.092 7.308 19.656 7.308 3.292 0 6.433-.432 9.188-1.022 9.82-2.105 20.973-5.311 29.041-16.799 7.628-10.86 11.336-27.217 12.007-52.99.087-.729.167-1.425.244-2.088l.16-1.362 1.797.158.463.031c10.002.456 22.232-1.665 29.743-5.154 5.935-2.754 24.954-12.795 20.476-26.351"/>
@@ -219,9 +216,9 @@ const Skills: FunctionComponent = () => {
             </div>
         </div>
       </div>
-      <div className="w-full bg-white dark:bg-dark-grey">
-        <svg viewBox="0 0 500 125">
-          <path d="M 0 50 C 150 150 300 0 500 80 L 500 0 L 0 0" fill="#FFFAF2" className="dark:fill-jet"></path>
+      <div className="w-full bg-white dark:bg-dark-grey mb-12">
+        <svg width="100%" height="auto" viewBox="0 0 1514 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#FFFAF2" className="dark:fill-jet" d="M1514 67.9996V0H0.5C0.5 0 197 84.0013 484.5 84.0013C700.555 84.0013 1012.5 0.625977 1188.5 0.625977C1364.5 0.625977 1514 67.9996 1514 67.9996Z" />
         </svg>
       </div>
     </section>
