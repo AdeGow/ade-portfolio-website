@@ -54,7 +54,7 @@ const ContactForm: React.FC = () => {
       {isFormSent ? (
         <FormSent />
         ) : (
-        <div className="p-4 rounded-3xl shadow-sm backdrop-filter backdrop-blur-sm max-w-md mx-auto my-10 bg-floral bg-opacity-60 dark:bg-dark-grey dark:bg-opacity-60">
+        <div className="p-4 rounded-3xl shadow-sm backdrop-filter backdrop-blur-sm max-w-md mx-auto my-10 bg-floral bg-opacity-60 border border-[#FFF5E5] border-opacity-50 dark:border-jet dark:border-opacity-50 dark:bg-dark-grey dark:bg-opacity-60">
           <div className="text-center">
             <h3 className="my-3 text-center font-title text-jet font-semibold text-3xl md:text-3xl lg:5xl dark:text-floral">CONTACT</h3>
           </div>

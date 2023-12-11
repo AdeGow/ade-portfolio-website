@@ -30,7 +30,7 @@ const DesktopNavbar: FunctionComponent = () => {
   const headerClasses = `header ${isHeaderActive ? 'bg-opacity-60 dark:bg-opacity-60' : ''}`;
 
   return (
-    <div className={`sticky top-0 w-full backdrop-filter backdrop-blur-sm bg-floral dark:bg-jet ${headerClasses}`}>
+    <div className={`sticky top-0 w-full border-bottom backdrop-filter backdrop-blur-sm bg-floral dark:bg-jet ${headerClasses}`}>
       <div className="flex flex-row justify-around place-items-center">
         <div>
             <a href="#top" className="scroll-smooth">
