@@ -33,7 +33,7 @@ const DesktopNavbar: FunctionComponent = () => {
     <div className={`sticky top-0 w-full backdrop-filter backdrop-blur-sm bg-floral dark:bg-jet ${headerClasses}`}>
       <div className="flex flex-row justify-around place-items-center">
         <div>
-            <a href="#hero" className="scroll-smooth">
+            <a href="#top" className="scroll-smooth">
               {theme === 'dark' ? (
               <img className="h-[5rem] w-auto" src={LogoGreyBg} alt="Ade Studio's logo" />
               ) : (
@@ -51,7 +51,7 @@ const DesktopNavbar: FunctionComponent = () => {
                 to="about-me"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-150}
                 duration={750}
                 >
                   <span className="font-text dark:text-floral font-light	text-xl">About me</span>
@@ -77,7 +77,7 @@ const DesktopNavbar: FunctionComponent = () => {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-150}
                 duration={750}
                 >
                   <span className="font-text dark:text-floral font-light	text-xl">Projects</span>

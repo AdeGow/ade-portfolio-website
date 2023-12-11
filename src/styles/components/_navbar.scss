@@ -12,6 +12,21 @@
     padding: 4px;
 }
 
+.dark {
+  .active-desktop {
+    border-bottom: 2px solid #FFFAF2;
+    padding-bottom: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .active-mobile > svg {
+    stroke: #2c2c2c;
+    background-color: #FFFAF2;
+    border-radius: 50%;
+    padding: 4px;
+  }
+}
+
 @-moz-document url-prefix() {
   #fixed-mobile-navbar {
     position: fixed;

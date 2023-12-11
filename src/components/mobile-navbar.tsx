@@ -13,17 +13,15 @@ const MobileNavbar: FunctionComponent = () => {
   const { theme } = useTheme();
 
   return (
-    <div>
+    <div id="top-mobile">
       <div className="top-0 w-full bg-floral dark:bg-jet">
         <div className="flex flex-row justify-between place-items-center">
           <div>
-              <a href="#hero" className="scroll-smooth">
-                {theme === 'dark' ? (
-                <img className="h-[5rem] pl-1 w-auto" src={LogoGreyBg} alt="Ade Studio's logo" />
-                ) : (
-                  <img className="h-[5rem] pl-1 w-auto" src={LogoBeigeBg} alt="Ade Studio's logo" />
-                )}
-              </a>
+            {theme === 'dark' ? (
+            <img className="h-[5rem] pl-1 w-auto" src={LogoGreyBg} alt="Ade Studio's logo" />
+            ) : (
+              <img className="h-[5rem] pl-1 w-auto" src={LogoBeigeBg} alt="Ade Studio's logo" />
+            )}
           </div>
           <div className="pr-3">
             <ThemeToggle />
@@ -99,7 +97,7 @@ const MobileNavbar: FunctionComponent = () => {
                 <Link
                 className="link"
                 activeClass="active-mobile"
-                to="hero"
+                to="top-mobile"
                 spy={false}
                 smooth={true}
                 offset={0}
