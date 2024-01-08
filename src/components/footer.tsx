@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 
 const Footer: FunctionComponent = () => {
 
-  const pdfUrl = 'https://drive.google.com/file/d/1BrHRDuTNHZLRsv4ygVeLTiVVSo6xsXg5/view?usp=drive_link';
+  const pdfUrl = 'https://drive.google.com/file/d/1ZBEr2Q-fAi2n-QFE55LlF-tCYYzFmCql/view?usp=sharing';
 
   const handleDownloadResume = () => {
     window.open(pdfUrl, '_blank');
@@ -19,13 +19,13 @@ const Footer: FunctionComponent = () => {
         </a>
         {/* LinkedIn Link */}
         <a className="h-14 mx-9 md:mx-5" href="https://www.linkedin.com/in/adeline-degaulejac/?locale=en_US" target="_blank" rel="noreferrer">
-          <svg className="object-contain" xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="7.025 7.025 497.951 497.95"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="-974.482" y1="1306.773" x2="-622.378" y2="1658.877" gradientTransform="translate(1054.43 -1226.825)"><stop offset="0" stop-color="#2489be"/><stop offset="1" stop-color="#0575b3"/></linearGradient>
+          <svg className="object-contain" xmlns="http://www.w3.org/2000/svg" width="auto" height="100%" viewBox="7.025 7.025 497.951 497.95"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="-974.482" y1="1306.773" x2="-622.378" y2="1658.877" gradientTransform="translate(1054.43 -1226.825)"><stop offset="0" stop-color="#2489be"/><stop offset="1" stop-color="#0575b3"/></linearGradient>
           <path className="fill-jet dark:fill-floral" d="M256 7.025C118.494 7.025 7.025 118.494 7.025 256S118.494 504.975 256 504.975 504.976 393.506 504.976 256C504.975 118.494 393.504 7.025 256 7.025zm-66.427 369.343h-54.665V199.761h54.665v176.607zM161.98 176.633c-17.853 0-32.326-14.591-32.326-32.587 0-17.998 14.475-32.588 32.326-32.588s32.324 14.59 32.324 32.588c.001 17.997-14.472 32.587-32.324 32.587zm232.45 199.735h-54.4v-92.704c0-25.426-9.658-39.619-29.763-39.619-21.881 0-33.312 14.782-33.312 39.619v92.704h-52.43V199.761h52.43v23.786s15.771-29.173 53.219-29.173c37.449 0 64.257 22.866 64.257 70.169l-.001 111.825z"/>
           </svg>
         </a>
       </div>
       <div className="flex flex-row justify-center items-center mb-6 justify-center md:w-1/3">
-        <p className="px-3 text-center font-text font-light text-jet text-lg dark:text-floral">Website created with React JS and Tailwind CSS with ♡</p>
+        <p className="px-3 text-center font-text font-light text-jet text-lg dark:text-floral">I created this website with React JS, TypeScript, Tailwind CSS and a lot of ♡</p>
       </div>
       <div className="md:flex md:flex-col md:w-1/3">
         <div className="flex flex-row justify-center items-center">
