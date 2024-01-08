@@ -27,11 +27,11 @@ const About: FunctionComponent = () => {
             <br />
             <p>Specialised in Ruby on Rails, I would be thrilled to engage in your web applications, e-commerce and website projects.</p>
             <br />
-            <p>I have worked on Rails app (check out my portfolio below) and worked as a webdesigner at Amenitiz, designing websites for people in the hotellerie sector.</p>
+            <p>I have worked on Rails and React JS apps (check out my portfolio below 👇) and designed websites for people in the Hospitality sector during my experience at Amenitiz as Web Designer.</p>
             <br />
-            <p>In addition to my keen interest for web development, I have a background in business and digital marketing.</p>
+            <p>In addition to my keen interest for web development, I have a background in business and digital marketing. I speak English, Spanish and French and hopefully Portuguese or Italian soon !</p>
             <br />
-            <p>The goal is to bring your web projects to life while respecting your vision, help you achieve your business goals and optimize the user experience.</p>
+            <p>In a nutshell, the goal here is to <span className="font-medium">bring your web projects to life</span> while respecting your vision, help you achieve your business goals and optimize the user experience.</p>
           </div>
         </div>
       </div>
