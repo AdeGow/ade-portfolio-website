@@ -4,9 +4,9 @@ import AlibyePicture from '../assets/alibye-banner.jpg';
 const AlibyeProjectCard: FunctionComponent = () => {
 
   return (
-    <div className="flex flex-row flex-wrap mx-auto">
+    <div className="flex flex-col items-center mx-auto">
       {/* Card component */}
-      <div className="transition-all duration-150 flex w-full px-5 md:px-12 py-4 md:w-11/12">
+      <div className="transition-all duration-150 flex w-full px-5 md:px-4 lg:px-0 py-4 md:w-11/12">
         <div className="flex flex-col items-stretch pt-6 mb-6 transition-all duration-150 bg-white rounded-3xl shadow-lg hover:shadow-2xl lg:mx-4 dark:bg-jet text-jet dark:text-floral">
           {/* Card Title */}
           <div className="w-full px-4 py-3 text-center font-title font-medium text-3xl md:text-3xl lg:5xl">
@@ -17,11 +17,16 @@ const AlibyeProjectCard: FunctionComponent = () => {
             <img className="object-cover w-full md:h-56" src={AlibyePicture} alt="Active Buddy's logo" />
           </div>
           {/* Card description */}
-          <div className="flex flex-row flex-wrap w-full h-26 px-4 py-4 text-base font-normal text-left lg:text-lg lg:h-28 lg:px-6">
-            <p>A web app for finding excuses to avoid uncomfortable social, professional or family events.</p>
+          <div className="flex flex-row flex-wrap w-full h-26 px-4 py-4 text-base font-normal text-left lg:text-lg lg:h-56 lg:px-7">
+            <p className="pb-4">A web app for finding excuses to avoid uncomfortable social, professional or family events.</p>
+            <p>Enter Alibye website on a desktop device and use the following login information:
+              <br />
+              ➡️ username : ade@ade.com
+              <br />
+              ➡️ password : 123456</p>
           </div>
           {/* Card tools */}
-          <div className="flex flex-row flex-wrap w-full h-14 px-4 py-2 text-base font-light text-left lg:px-6">
+          <div className="flex flex-row flex-wrap w-full h-14 px-4 py-2 text-base font-light text-left lg:px-7">
             <p>Ruby on Rails | JavaScript | HTML | SCSS | Cloudinary API</p>
           </div>
           {/* Card links */}
