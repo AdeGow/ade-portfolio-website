@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import ContactForm from './contact-form';
+import ContactForm from './ContactForm';
 
 const Contact: FunctionComponent = () => {
 

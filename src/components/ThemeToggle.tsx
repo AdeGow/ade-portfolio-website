@@ -1,5 +1,4 @@
-import React from 'react';
-import { useTheme } from '../context/theme-context';
+import { useTheme } from '../context/ThemeContext';
 
 const MoonIcon = `
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="w-6 h-6 pl-1 stroke-jet dark:stroke-floral" viewBox="0 0 24 24" stroke="currentColor">

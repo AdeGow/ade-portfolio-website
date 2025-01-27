@@ -1,12 +1,11 @@
 import React, { FunctionComponent } from 'react';
 import { Link } from 'react-scroll';
-import '../styles/components/_navbar.scss';
-import ThemeToggle from './theme-toggle';
-import { useTheme } from '../context/theme-context';
+import '../../styles/components/_navbar.css';
+import ThemeToggle from '../ThemeToggle';
+import { useTheme } from '../../context/ThemeContext';
 
-// import images
-import LogoBeigeBg from '../assets/logo-ade-studio-grey.svg';
-import LogoGreyBg from '../assets/logo-ade-studio-floral.svg';
+import LogoBeigeBg from '../../assets/logo-ade-studio-grey.svg';
+import LogoGreyBg from '../../assets/logo-ade-studio-floral.svg';
 
 const MobileNavbar: FunctionComponent = () => {
 

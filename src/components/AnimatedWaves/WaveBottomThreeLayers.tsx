@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { useTheme } from '../context/theme-context';
+import { useTheme } from '../../context/ThemeContext';
 
 const WaveBottomThreeLayers: FunctionComponent = () => {
 

@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { useTheme } from '../context/theme-context';
+import { useTheme } from '../context/ThemeContext';
 import beigeBgAdePicture from '../assets/beige-bg-ade-picture.gif';
 import greyBgAdePicture from '../assets/grey-bg-ade-picture.gif';
 

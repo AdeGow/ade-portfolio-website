@@ -1,15 +1,14 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 
-// import components
-import MobileNavbar from './components/mobile-navbar';
-import DesktopNavbar from './components/desktop-navbar';
-import Hero from './components/hero';
-import About from './components/about';
-import Skills from './components/skills';
-import Projects from './components/projects';
-import Contact from './components/contact';
-import Footer from './components/footer';
+import MobileNavbar from './components/Navigation/MobileNavbar';
+import DesktopNavbar from './components/Navigation/DesktopNavbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });

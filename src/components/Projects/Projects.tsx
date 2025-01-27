@@ -1,11 +1,11 @@
 import React, { FunctionComponent } from 'react';
-import ActiveBuddyProjectCard from './activebuddy-project-card';
-import AlibyeProjectCard from './alibye-project-card';
-import PokedexProjectCard from './pokedex-project-card';
-import PaltaxProjectCard from './paltax-project-card';
+import ActiveBuddyProjectCard from './ActiveBuddyProjectCard';
+import AlibyeProjectCard from './AlibyeProjectCard';
+import PokedexProjectCard from './PokedexProjectCard';
+import PaltaxProjectCard from './PaltaxProjectCard';
 import { useMediaQuery } from 'react-responsive';
-import WaveBottomThreeLayers from './wave-bottom-three-layers';
-import WaveTopThreeLayers from './wave-top-three-layers';
+import WaveBottomThreeLayers from '../AnimatedWaves/WaveBottomThreeLayers';
+import WaveTopThreeLayers from '../AnimatedWaves/WaveTopThreeLayers';
 
 const Projects: FunctionComponent = () => {
 
