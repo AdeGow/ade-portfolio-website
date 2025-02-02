@@ -23,15 +23,18 @@ const About: FunctionComponent = () => {
             )}
           </div>
           <div className="font-text font-light text-jet text-lg text-left px-9 mb-16 dark:text-floral md:text-xl md:pl-0 md:mb-0">
-            <p>Hey there, I’m Ade, a full-stack software developer and UX/UI designer.</p>
+            <p>Hey there, I’m Ade, a Web Developer and UX/UI designer.</p>
             <br />
-            <p>Specialised in Ruby on Rails, I would be thrilled to engage in your web applications, e-commerce and website projects.</p>
+            <p>Currently working as a freelance Frontend Developer and UX/UI Designer, I bring over three years of experience in digital marketing and business before discovering my passion for web development. </p>
             <br />
-            <p>I have worked on Rails and React JS apps (check out my portfolio below 👇) and designed websites for people in the Hospitality sector during my experience at Amenitiz as Web Designer.</p>
+            <p>I specialize in Next.js, React.js, TypeScript, and Figma, delivering end-to-end solutions from prototyping to testing and deployment. I also have experience as a Fullstack Developer, building Ruby on Rails apps.</p>
             <br />
-            <p>In addition to my keen interest for web development, I have a background in business and digital marketing. I speak English, Spanish and French and hopefully Portuguese or Italian soon !</p>
+            <p>Detail-oriented and team-spirited, I work following Agile methodologies and Lean principles to ensure efficiency and adaptability in every project.</p>
             <br />
-            <p>In a nutshell, the goal here is to <span className="font-medium">bring your web projects to life</span> while respecting your vision, help you achieve your business goals and optimize the user experience.</p>
+            <p>Whether you're building a web app, e-commerce platform or website for your non-profit, company or personal project, I can help turn your ideas into user-friendly applications tailored to your needs.</p>
+            <br />
+            <p>Feel free to reach out (in English, French or Spanish)!</p>
+            <p>I'd love to collaborate on impactful projects starting in March-April 2025 (negotiable).</p>
           </div>
         </div>
       </div>
