@@ -23,8 +23,6 @@ const About: FunctionComponent = () => {
             )}
           </div>
           <div className="font-text font-light text-jet text-lg text-left px-9 mb-16 dark:text-floral md:text-xl md:pl-0 md:mb-0">
-            <p>Hey there, I’m Ade, a Web Developer and UX/UI designer.</p>
-            <br />
             <p>Currently working as a freelance Frontend Developer and UX/UI Designer, I bring over three years of experience in digital marketing and business before discovering my passion for web development. </p>
             <br />
             <p>I specialize in Next.js, React.js, TypeScript, and Figma, delivering end-to-end solutions from prototyping to testing and deployment. I also have experience as a Fullstack Developer, building Ruby on Rails apps.</p>
