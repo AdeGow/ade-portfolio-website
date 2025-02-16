@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import ContactForm from './ContactForm';
+import '../../styles/components/contact.css';
 
 const Contact: FunctionComponent = () => {
 
@@ -18,7 +19,7 @@ const Contact: FunctionComponent = () => {
           Let’s talk about your ideas and how we could work together. <br /> Feel free to contact me in English, Spanish or French to ask me more information or request a quotation.
         </p>
       </div>
-      <div className="min-h-screen bg-plant bg-auto">
+      <div className="min-h-screen bg-contact-form bg-auto">
         <ContactForm />
       </div>
     </section>

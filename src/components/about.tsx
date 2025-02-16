@@ -1,12 +1,8 @@
 import React, { FunctionComponent } from 'react';
-import { useTheme } from '../context/ThemeContext';
-import beigeBgAdePicture from '../assets/beige-bg-ade-picture.gif';
-import greyBgAdePicture from '../assets/grey-bg-ade-picture.gif';
-
+import '../styles/components/about.css';
+import AdelinePicture from '../assets/adeline-picture.jpg';
 
 const About: FunctionComponent = () => {
-
-  const { theme } = useTheme();
 
   return (
     <section id="about-me" className="md:mb-14">
@@ -15,14 +11,12 @@ const About: FunctionComponent = () => {
       </div>
       <div className="container mx-auto text-center md:text-left md:px-14">
         <div className="flex flex-col lg:flex-row-reverse md:items-center">
-          <div>
-            {theme === 'dark' ? (
-              <img className="h-auto w-full mb-6 md:mb-0" src={greyBgAdePicture} alt="Adeline" />
-              ) : (
-              <img className="h-auto w-full mb-6 md:mb-0" src={beigeBgAdePicture} alt="Ade" />
-            )}
+          <div className="image-effect-wrap md:w-1/3">
+            <div className="image-effect-circle my-6">
+              <img src={AdelinePicture} alt="Adeline" />
+            </div>
           </div>
-          <div className="font-text font-light text-jet text-lg text-left px-9 mb-16 dark:text-floral md:text-xl md:pl-0 md:mb-0">
+          <div className="font-text font-light text-jet text-lg text-left px-9 mb-16 dark:text-floral md:text-xl md:pl-0 md:mb-0 lg:w-2/3">
             <p>Currently working as Frontend Developer and UX/UI Designer, I bring over three years of experience in digital marketing and business before discovering my passion for web development. </p>
             <br />
             <p>I specialize in Next.js, React.js, TypeScript, and Figma, delivering end-to-end solutions from prototyping to testing and deployment. I also have experience as a Fullstack Developer, building Ruby on Rails apps.</p>
