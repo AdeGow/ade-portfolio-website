@@ -129,7 +129,7 @@ const ContactForm: React.FC = () => {
                 ) : (
                   <button
                     type="submit"
-                    className="bg-plant bg-auto w-6/12 p-2 font-text font-semibold text-lg text-floral rounded-3xl"
+                    className="bg-jet w-6/12 p-2 font-text font-semibold text-lg text-floral rounded-3xl"
                     disabled={isSending}
                   >
                   {isSending ? 'Sending...' : 'Submit'}

@@ -17,13 +17,8 @@ const AlibyeProjectCard: FunctionComponent = () => {
             <img className="object-cover w-full md:h-56" src={AlibyePicture} alt="Active Buddy's logo" />
           </div>
           {/* Card description */}
-          <div className="flex flex-row flex-wrap w-full h-26 px-4 py-4 text-base font-normal text-left lg:text-lg lg:h-56 lg:px-7">
+          <div className="flex flex-row flex-wrap w-full h-26 px-4 py-4 text-base font-normal text-left lg:text-lg lg:h-28 lg:px-7">
             <p className="pb-4">A web app for finding excuses to avoid uncomfortable social, professional or family events.</p>
-            <p>Enter Alibye website on a desktop device and use the following login information:
-              <br />
-              ➡️ username : ade@ade.com
-              <br />
-              ➡️ password : 123456</p>
           </div>
           {/* Card tools */}
           <div className="flex flex-row flex-wrap w-full h-14 px-4 py-2 text-base font-light text-left lg:px-7">

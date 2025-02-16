@@ -16,7 +16,7 @@ const Contact: FunctionComponent = () => {
       </div>
       <div className="container md:px-14 mx-auto text-center md:text-left">
         <p className="font-text font-light text-jet text-lg text-left px-7 md:text-xl md:px-0 mb-8 dark:text-floral md:text-2xl md:mb-12">
-          Let’s talk about your ideas and how we could work together. <br /> Feel free to contact me in English, Spanish or French to ask me more information or request a quotation.
+          Looking forward to hearing about your projects. <br /> Feel free to contact me in English, Spanish or French to ask me more information or request a quotation.
         </p>
       </div>
       <div className="min-h-screen bg-contact-form bg-auto">
