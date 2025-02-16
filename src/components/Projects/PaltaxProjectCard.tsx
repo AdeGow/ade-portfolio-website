@@ -17,15 +17,8 @@ const PaltaxProjectCard: FunctionComponent = () => {
             <img className="object-contain w-full md:h-56" src={PaltaxPicture} alt="Active Buddy's logo" />
           </div>
           {/* Card description */}
-          <div className="flex flex-row flex-wrap w-full h-26 px-4 py-4 text-base font-normal text-left lg:text-lg lg:h-56 lg:px-7">
+          <div className="flex flex-row flex-wrap w-full h-26 px-4 py-4 text-base font-normal text-left lg:text-lg lg:h-28 lg:px-7">
             <p className="pb-4">Paltax is a web app project to create and manage recipes.</p>
-            <p>Some of the features that Paltax will offer are:
-            <br />
-            ➡️ manually create or import recipes from websites
-            <br />
-            ➡️ plan recipes in your calendar
-            <br />
-            ➡️ generate shopping lists</p>
           </div>
           {/* Card tools */}
           <div className="flex flex-row flex-wrap w-full h-14 px-4 py-2 text-base font-light text-left lg:px-7">
