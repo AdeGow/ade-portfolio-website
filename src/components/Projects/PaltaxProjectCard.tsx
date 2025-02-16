@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import PaltaxPicture from '../assets/paltax-logo.png';
+import PaltaxPicture from '../../assets/paltax-logo.png';
 
 const PaltaxProjectCard: FunctionComponent = () => {
 

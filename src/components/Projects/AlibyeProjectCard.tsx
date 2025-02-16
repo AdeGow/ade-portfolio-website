@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import AlibyePicture from '../assets/alibye-banner.jpg';
+import AlibyePicture from '../../assets/alibye-banner.jpg';
 
 const AlibyeProjectCard: FunctionComponent = () => {
 

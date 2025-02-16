@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import { useTheme } from '../context/theme-context';
-import FormSent from './form-sent';
+import { useTheme } from '../../context/ThemeContext';
+import FormSent from './FormSent';
 
 const ContactForm: React.FC = () => {
 
