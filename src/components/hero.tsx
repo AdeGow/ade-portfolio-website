@@ -9,7 +9,7 @@ const Hero: FunctionComponent = () => {
           <div className="flex items-center">
             <div className="w-full">
               <h1 className="font-title font-semibold text-jet text-4xl sm:text-5xl mb-5 md:text-7xl dark:text-floral md:mb-4">ADELINE <br className="lg:hidden" />DE GAULEJAC</h1>
-              <p className="font-text font-normal text-jet text-base mb-3 md:text-2xl dark:text-floral md:mb-10">Fullstack Developer with a focus in Frontend Development | UX/UI Designer</p>
+              <p className="font-text font-normal text-jet text-base mb-3 md:text-2xl dark:text-floral md:mb-10">Fullstack Developer with a focus on Frontend Development | UX/UI Designer</p>
               <p className="font-text font-light text-jet text-lg mb-3 md:text-2xl dark:text-floral md:mb-4">Looking for a developer to turn your ideas into real user-friendly web apps?
               </p>
               <p className="font-text font-light text-jet text-lg mb-3 md:text-2xl dark:text-floral md:mb-4">Welcome to Ade Studio ♡</p>
